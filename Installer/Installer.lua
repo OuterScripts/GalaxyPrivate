@@ -1,5 +1,4 @@
-local playerservice = game:GetService('Players')
-local lplr = playerservice.LocalPlayer
+local lplr = game:GetService("Players").LocalPlayer
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Galaxy Installer (Private), HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 
